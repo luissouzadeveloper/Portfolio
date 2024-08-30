@@ -11,7 +11,7 @@ const About = () => {
                     </div>
 
                     <div className="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
-                        <h2>Sobre mim</h2>
+                        <h2 className='fw-bold text-primary fs-1'>Sobre mim</h2>
                         <p>
                             Me chamo Luis Felipe, tenho 25 anos de idade, sou acadêmico do curso Análise e Desenvolvimento de Sistemas na faculdade Anhanguera. Gosto muito de programação, Linux, tecnologia em geral e jogos.
                         </p>
