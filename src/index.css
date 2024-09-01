@@ -22,3 +22,26 @@
   background-attachment: fixed;
   height: 80vh;
 }
+
+/* Skills */
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-card {
+  background-color: #0d6efd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.384);
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+.skills-card:hover{
+  transform: scale(1.2)
+}
+.skills-card > h3, i{
+  color: #fff;
+}
