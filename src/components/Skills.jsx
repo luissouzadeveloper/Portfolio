@@ -22,6 +22,9 @@ const Skills = () => {
                             <i className="fa-brands fa-bootstrap fa-2xl"></i>
                         </div>
                         <div className="skills-card">
+                            <i className="fa-brands fa-linux fa-2xl"></i>
+                        </div>
+                        <div className="skills-card">
                             <i className="fa-brands fa-react fa-2xl"></i>
                         </div>
                     </div>
