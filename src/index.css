@@ -3,6 +3,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Titles */
+h2{
+  text-align: center;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
 /* Links */
 .nav-link {
   margin: 0 5px;
@@ -44,4 +51,9 @@
 }
 .skills-card > h3, i{
   color: #fff;
+}
+
+/* Cards */
+.btn-outline-light:hover{
+  color: #0d6efd;
 }
