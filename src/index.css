@@ -4,7 +4,7 @@
 }
 
 /* Titles */
-h2{
+h2 {
   text-align: center;
   font-weight: bold;
   color: #0d6efd;
@@ -31,12 +31,13 @@ h2{
 }
 
 /* Skills */
-.skills{
+.skills {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .skills-card {
   background-color: #0d6efd;
   padding: 20px;
@@ -46,22 +47,26 @@ h2{
   cursor: pointer;
   transition: all ease-in-out 300ms;
 }
-.skills-card:hover{
+
+.skills-card:hover {
   transform: scale(1.2)
 }
-.skills-card > h3, i{
+
+.skills-card>h3,
+i {
   color: #fff;
 }
 
 /* Cards */
-.btn-outline-light:hover{
+.btn-outline-light:hover {
   color: #0d6efd;
 }
 
 /* Social Networks */
-.social i{
+.social i {
   transition: all 500ms ease-in-out;
 }
-.social i:hover{
+
+.social i:hover {
   transform: scale(1.4);
 }
