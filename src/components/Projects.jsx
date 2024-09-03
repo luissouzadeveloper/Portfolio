@@ -17,37 +17,41 @@ const Projects = () => {
                             <div className="card-body">
                                 <h5 className="card-title text-white">Resident Evil 4</h5>
                                 <p className="card-text text-white">Este é um site inspirado no da Capcom, foi feito com HTML, CSS,JavaScript e Bootstrap</p>
-                                <a href="#" className="btn btn-outline-light">Acesse</a>
+                                <a href="https://luissouzadeveloper.github.io/Resident-Evil4-Remake/" target='_blank' className="btn btn-outline-light">Acesse</a>
                             </div>
                         </div>
 
                         <div className="card my-3 p-2 bg-primary">
-                            <img src={Projeto2} className="card-img-top" alt="Projeto 1"></img>
+                            <img src={Projeto2} className="card-img-top" alt="Projeto 2"></img>
                             <div className="card-body">
-                                <h5 className="card-title text-white">Card title 2</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-outline-light">Go somewhere</a>
+                                <h5 className="card-title text-white">Asia Airlines</h5>
+                                <p className="card-text text-white">Uma landing page oriental e fictícia feita com HTML, CSS e JavaScript.</p>
+                                <a href="https://luissouzadeveloper.github.io/Asia-Airlines/" target='_blank' className="btn btn-outline-light">Acesse</a>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-12 col-md-6">
-                    <div className="card my-3 p-2 bg-primary">
-                            <img src={Projeto3} className="card-img-top" alt="Projeto 1"></img>
+                        <div className="card my-3 p-2 bg-primary">
+                            <img src={Projeto3} className="card-img-top" alt="Projeto 3"></img>
                             <div className="card-body">
-                                <h5 className="card-title text-white">Card title</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-outline-light">Go somewhere</a>
+                                <h5 className="card-title text-white">Calculadora IMC</h5>
+                                <p className="card-text text-white">Uma calculadora IMC com HTML, CSS e JavaScript seguindo todas as medidas de classificação.</p>
+                                <a href="https://luissouzadeveloper.github.io/calculadora-imc/" target='_blank' className="btn btn-outline-light">Acesse</a>
                             </div>
                         </div>
                         <div className="card my-3 p-2 bg-primary">
-                            <img src={Projeto4} className="card-img-top" alt="Projeto 1"></img>
+                            <img src={Projeto4} className="card-img-top" alt="Projeto 4"></img>
                             <div className="card-body">
-                                <h5 className="card-title text-white">Card title</h5>
-                                <p className="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" className="btn btn-outline-light">Go somewhere</a>
+                                <h5 className="card-title text-white">Cine Horror</h5>
+                                <p className="card-text text-white">Uma franquia fictícia criada por mim, feita em HTML, CSS, JavaScript e Bootstrap.</p>
+                                <a href="https://luissouzadeveloper.github.io/Cine-Horror-1/" target='_blank' className="btn btn-outline-light">Acesse</a>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="col-12 text-center my-2">
+                        <a href='https://github.com/luissouzadeveloper?tab=repositories' target='_blank' type="button" className="btn btn-primary fw-bold">Veja mais</a>
                     </div>
 
                 </div>
